@@ -37,6 +37,8 @@ nav ul li{
     font:16px;
     font-weight: 400;
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 .contact{
     display: flex;
@@ -59,7 +61,7 @@ h4{
   justify-content: center;
 
 }
-#h1{
+.web-dev{
     text-align: center;
     font-weight: 800;
     font: size 40px;
@@ -100,3 +102,28 @@ h4{
 .focus{
 
 }
+
+.underline{
+    text-decoration: underline;
+}
+.skill{ 
+    width: 364px;
+    height: 300px;
+    font-size: 16px;
+    gap: 18px;
+
+}
+
+.details-container{
+    display: flex;
+    justify-content: space-between;
+}
+/* #html{
+    color: rgba(255, 76, 30, 0.05);
+}
+.css{
+    color: rgba(0, 76, 232, 0.05);
+}
+.js{
+    color: rgba(255, 223, 0, 0.05);
+} */
