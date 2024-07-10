@@ -127,3 +127,18 @@ h4{
 .js{
     color: rgba(255, 223, 0, 0.05);
 } */
+ .iframe{
+    text-align: center;
+ }
+ .support{
+    background-image: url(../img/handshake.jpg);
+    padding: 250px;
+ }
+ .Open{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(13, 19, 33, 0.03);
+    font-size: 20px;
+ }
