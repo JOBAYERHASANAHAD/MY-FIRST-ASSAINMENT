@@ -37,8 +37,9 @@ nav ul li{
     font:16px;
     font-weight: 400;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    padding: 10px;
 }
 .contact{
     display: flex;
@@ -96,7 +97,6 @@ h4{
 
 .feature{
     display: flex;
-    justify-content: space-between;
 }
 
 .focus{
@@ -111,22 +111,26 @@ h4{
     height: 300px;
     font-size: 16px;
     gap: 18px;
-
 }
 
 .details-container{
     display: flex;
     justify-content: space-between;
+    padding: 15px;
+    gap: 15px;
+    width: auto;
+    height: 300px;
+    border-radius: 0%;
 }
-/* #html{
-    color: rgba(255, 76, 30, 0.05);
+#html{
+    background-color: rgba(255, 76, 30, 0.05);
 }
-.css{
-    color: rgba(0, 76, 232, 0.05);
+#css{
+    background-color: rgba(0, 76, 232, 0.05);
 }
-.js{
-    color: rgba(255, 223, 0, 0.05);
-} */
+#JS{
+    background-color: rgba(255, 223, 0, 0.05);
+}
  .iframe{
     text-align: center;
  }
@@ -139,6 +143,11 @@ h4{
     justify-content: space-between;
     border-radius: 5px;
     padding: 20px;
-    background-color: rgba(13, 19, 33, 0.03);
+    background-color: rgba(22, 32, 56, 0.03);
     font-size: 20px;
+ }
+ .last-btn{
+    text-align: center;
+    gap: 2px;
+   
  }
