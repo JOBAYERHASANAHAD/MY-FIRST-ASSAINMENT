@@ -134,9 +134,17 @@ h4{
  .iframe{
     text-align: center;
  }
+.div-container{
+    display: flex;
+    gap: 15px;
+}
+.div-container-2{
+    display: flex;
+}
+
  .support{
     background-image: url(../img/handshake.jpg);
-    padding: 250px;
+    padding: 64px 48px;
  }
  .Open{
     display: flex;
@@ -150,4 +158,7 @@ h4{
     text-align: center;
     gap: 2px;
    
+ }
+ #last-container{
+    color: white;
  }
